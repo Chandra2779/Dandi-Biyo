@@ -11,7 +11,7 @@ export function MainMenu() {
   const lang = useSettingsStore((s) => s.language)
 
   return (
-    <div className="relative z-10 flex h-full w-full flex-col items-center justify-center gap-2 p-4">
+    <div className="absolute inset-0 z-10 flex h-full w-full flex-col items-center justify-center gap-2 p-4">
       <div className="animate-fade-up flex flex-col items-center">
         <h1 className={`font-nepali text-glow text-6xl font-bold tracking-wide text-amber-100 md:text-8xl`}>
           डण्डी बियो
